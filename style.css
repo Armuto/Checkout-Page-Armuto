@@ -138,7 +138,7 @@ input[type="checkbox"] {
   filter: invert(1);
 }
 footer{
-    margin-top: 4rem;
+    margin: 3rem 0;
     text-align: center;
 }
 @media (min-width: 1024px) {
