@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <h1 class="contenedor__titulo">Checkout</h1>
+    </header>
+    <main class="contenedor">
+      <section class="contenedor__productos">
+        <article class="contenedor__productos__grupo">
+          <img class="contenedor__productos__imagen" src="photo1.png" alt="">
+          <div class="contenedor__productos__detalle">
+            <p class="contenedor__productos__detalle__nombre">Vintage Backbag</p>
+            <p class="contenedor__productos__detalle__precio">$54.99 <span> <u>$94.99</u> </span> </p>
+            <div class="contenedor__productos__detalle__botones">
+              <button class="contenedor__productos__detalle__botones__grupo">-</button>
+              <p>1</p>
+              <button class="contenedor__productos__detalle__botones__grupo">+</button>
+            </div>
+          </div>
+        </article>
+        <article class="contenedor__productos__grupo">
+          <img class="contenedor__productos__imagen" src="photo2.png" alt="">
+          <div class="contenedor__productos__detalle">
+            <p class="contenedor__productos__detalle__nombre">Vintage Backbag</p>
+            <p class="contenedor__productos__detalle__precio">$54.99 <span> <u>$94.99</u> </span> </p>
+            <div class="contenedor__productos__detalle__botones">
+              <button class="contenedor__productos__detalle__botones__grupo">-</button>
+              <p>1</p>
+              <button class="contenedor__productos__detalle__botones__grupo">+</button>
+            </div>
+          </div>
+        </article>
+        <div class="contenedor__productos__cantidad contenedor__productos__envio">
+          <hr>
+          <p>Shipping <span>$19</span></p>
+        </div>
+        <div class="contenedor__productos__cantidad contenedor__productos__total">
+          <hr>
+          <p>Total <span>$148.98</span></p>
+          <p></p>
+        </div>
+      </section>
+      <section class="contenedor__informacion">
+        <form class="contenedor__informacion__form">
+          <h2 class="contenedor__informacion__form__titulo">Contact infomation</h2>
+          <fieldset>
+            <legend>E-mail</legend>
+            <input type="text" placeholder="Enter your email...">
+          </fieldset>
+          <fieldset>
+            <legend>Phone</legend>
+            <input type="text" placeholder="Enter your phone...">
+          </fieldset>
+        </form>
+        <form class="contenedor__informacion__form contenedor__informacion__form__segundo">
+          <h2 class="contenedor__informacion__form__titulo">Shipping address</h2>
+          <fieldset>
+            <legend>Full name</legend>
+            <input type="text" placeholder="Your full name...">
+          </fieldset>
+          <fieldset>
+            <legend>Address</legend>
+            <input type="text" placeholder="Your address...">
+          </fieldset>
+          <fieldset>
+            <legend>City</legend>
+            <input type="text" placeholder="Your city...">
+          </fieldset>
+          <div class="contenedor__informacion__form__segundo__city__country">
+            <fieldset>
+              <legend>Country</legend>
+                <select name="asd" id="" >
+                  <option value="" disabled selected hidden>Your country ...</option>
+                  <option value="">Chile</option>
+                  <option value="">Brasil</option>
+                  <option value="">Japón</option>
+                </select>
+            </fieldset>
+            <fieldset>
+              <legend>Postal Code</legend>
+              <input class="input_ultimo" type="text" placeholder="Your postal code..">
+            </fieldset>
+          </div>
+          <div class="contenedor__informacion__form__segundo__save">
+            <input type="checkbox" id="checkbox">
+            <label for="checkbox">Save this information for next time</label>
+          </div>
+          <div class="contenedor__informacion__form__segundo__boton__continuar">
+            <input type="button" value="Continue">
+          </div>
+        </form>
+      </section>
+    </main>
+    <footer>
+      created by Armuto - devChallenges.io
+    </footer>
+  </body>
+</html>
